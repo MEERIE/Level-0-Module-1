@@ -7,7 +7,6 @@ root = Tk()
 canvas = Canvas(root, width=window_width, height=window_height, borderwidth=0, highlightthickness=0, bg="#000050")
 canvas.grid()
 
-
 # This code runs whenever the mouse is clicked on the window
 def mouse_pressed(event):
     # Draws a dark blue background
@@ -24,7 +23,7 @@ def mouse_pressed(event):
     
     # 1. Add details to your rocket to make it look better. You can look at
     #    rocket.png for inspiration.
-    
+    canvas.create_oval(x, y, x-50, y, fill='#FF0000')
     # 2. Modify the locations of the shapes above so the rocket will be drawn
     #    where the mouse is clicked
     
