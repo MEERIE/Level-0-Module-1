@@ -21,7 +21,7 @@ if __name__ == '__main__':
     # Call the turtle .penup() method
     green.penup()
     # Move your turtle to a new x,y position using .goto()
-    green.goto(10,50)
+    green.goto(10, 50)
     # Calculate the area of your circle and store it in a variable
     # Hint, you can use math.pi
     area = math.pi*(radius**2)
